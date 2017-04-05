@@ -32,13 +32,13 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  *
  */
 public class GreeterClientConsumer {
-  
+
   public static void main(String[] args) throws Exception {
-    ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath*:META-INF/spring/service-consumer.xml");
+    ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath*:META-INF/spring/spring-mvc.xml");
     context.start();
-    final GreeterClientController greeterAction = (GreeterClientController)context.getBean("greeterAction");
+    final GreeterClientController greeterAction = (GreeterClientController) context.getBean("greeterAction");
     String hello = greeterAction.greet(null, null);
     System.out.println("result :" + hello);
     context.close();
-}
+  }
 }
