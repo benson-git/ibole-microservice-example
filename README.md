@@ -1,11 +1,14 @@
 # ibole-microservice-example
 An example of applying ibole-microservice library
 
-- Service Provider:
+- Service Provider
+
 microservice-example-server
 
-- Service Consumer:
+- Service Consumer
+
 microservice-example-client
 
 - Common stuffing for server and client side
+
 microservice-example-common:
