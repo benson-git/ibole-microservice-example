@@ -1,5 +1,5 @@
 # ibole-microservice-example
-An example of applying ibole-microservice library
+An example of applying ibole-microservice library.
 
 - Service Provider
 
@@ -11,4 +11,4 @@ An example of applying ibole-microservice library
 
 - Common stuffing(Stub, Request, Response...) shares for server and client side
 
-  microservice-example-common:
+  microservice-example-common
