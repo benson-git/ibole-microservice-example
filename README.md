@@ -9,6 +9,6 @@ An example of applying ibole-microservice library
 
   microservice-example-client
 
-- Common stuffing for server and client side
+- Common stuffing(Stub, Request, Response...) shares for server and client side
 
   microservice-example-common:
