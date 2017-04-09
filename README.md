@@ -31,7 +31,8 @@ An example of applying ibole-microservice library.
 ## Code snippet with explanations
 
 ### Server
-GreeterServiceImpl: 
+[GreeterServiceImpl](https://github.com/benson-git/ibole-microservice-example/blob/master/microservice-example-server/src/main/java/com/github/ibole/microservice/example/service/GreeterServiceImpl.java): 
+
 @ServiceExporter - Marks the annotated class to be registered as the implementation bean as part of service definition of micro-service;
 
 ```java
@@ -44,7 +45,8 @@ public class GreeterServiceImpl extends GreeterImplBase {
 
 ### Client
 
-GreeterClientController:
+[GreeterClientController](https://github.com/benson-git/ibole-microservice-example/blob/master/microservice-example-client/src/main/java/com/github/ibole/microservice/example/client/GreeterClientController.java): 
+
 @Reference - Discover the expected service from registry center and return instantiated client stub with the specific custom options.
 
 ```java
