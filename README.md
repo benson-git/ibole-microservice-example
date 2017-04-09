@@ -63,9 +63,10 @@ public class GreeterClientController{
 ## Run the Example
 
 * Prerequisite
-Java version: 1.8+
 
-Maven: 3.3.9 ([Install and configure](https://maven.apache.org/install.html))
+  Java version: 1.8+
+
+  Maven: 3.3.9 ([Install and configure](https://maven.apache.org/install.html))
 
 * Generate server/client stub for IDL 'helloworld.proto'
 
@@ -89,7 +90,7 @@ Maven: 3.3.9 ([Install and configure](https://maven.apache.org/install.html))
     mvn jetty:run
 ```
 
-Open the URL to the run the greet example: http://localhost:8080/microservice-example-client/greet
+Open the URL to run the greet example: http://localhost:8080/microservice-example-client/greet
 
 
 

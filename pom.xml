@@ -96,7 +96,7 @@
         <maven_war_plugin_version>2.2</maven_war_plugin_version>
         <maven_install_plugin_version>2.5.2</maven_install_plugin_version>
         <maven_deploy_plugin_version>2.8.2</maven_deploy_plugin_version>
-        <maven_shade_plugin_version>1.4</maven_shade_plugin_version>
+        <maven_shade_plugin_version>3.0.0</maven_shade_plugin_version>
 		<!-- Web server env setting -->
         <webserver.port>8080</webserver.port>
         <tomcat.version>2.2</tomcat.version>
