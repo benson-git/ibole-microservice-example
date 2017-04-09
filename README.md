@@ -28,12 +28,12 @@ An example of applying ibole-microservice library.
   ![Architecture](https://github.com/benson-git/wiki-docs/blob/master/images/ibole-microservice-example%20architecture.jpg)
   
   
-## Code snippet with explanations
+## Code Snippet with Explanations
 
 ### Server
 [GreeterServiceImpl](https://github.com/benson-git/ibole-microservice-example/blob/master/microservice-example-server/src/main/java/com/github/ibole/microservice/example/service/GreeterServiceImpl.java): 
 
-@ServiceExporter - Marks the annotated class to be registered as the implementation bean as part of service definition of micro-service;
+@ServiceExporter - Marks the annotated class to be registered as the implementation bean as part of service definition of micro-service.
 
 ```java
 @Service
