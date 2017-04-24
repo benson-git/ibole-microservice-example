@@ -42,7 +42,7 @@ public class App {
   public static void main(String[] args) throws Exception {
     String[] args1 = new String[] {"--hostname=localhost", "--port="+SERVICE_PORT, "--reg_servers=localhost:"+ZK_PORT, "--use_tls=true"};
     //init and start a embed zk server for testing purpose
-    new EmbedZkServer().boot(ZK_PORT);
+    //new EmbedZkServer().boot(ZK_PORT);
     //init and start micorservices server.
     ServerBootstrap.main(args1);
 

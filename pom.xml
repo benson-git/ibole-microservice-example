@@ -51,7 +51,7 @@
 		<grpc_version>1.2.0</grpc_version>
 		<protobuf_java_version>3.2.0</protobuf_java_version>
 		<!-- Spring Framework -->
-		<springframework_version>4.2.6.RELEASE</springframework_version>
+		<springframework_version>4.2.8.RELEASE</springframework_version>
 		<!-- Common libs -->
 		<guava_version>19.0</guava_version>
 		<slf4j_log4j12_version>1.7.5</slf4j_log4j12_version>
